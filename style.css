@@ -1,20 +1,8 @@
-@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;800;900&display=swap);
-
-body {
-  font-family: 'Rokkitt', serif;
-}
-
-body {
-  font-family: 'Lato', sans-serif;
-}
-
-
-
-
 html, body {
-	font-family: 'lato';
+
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
 	background-color: #f3f3f3;
+	color: #181818;
 }
 
 .clear {
@@ -35,17 +23,14 @@ html, body {
 }
 
 #contactDetails {
-	font-family:'lato', sans-serif;
+	font-family:'Lato', sans-serif;
 	float: right;
 }
 
 .sectionTitle {
 	text-align: left;
 	font-style: italic;
-	font-family: 'Rokkitt';
-	/* font-family: Helvetica, sans-serif; */
-	/* font-family: Arial, sans-serif; */
-	/* font-family: 'lato', sans-serif; */
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif ;
 	color: #cf8a05;
 	float: left;
 	width: 25%;
@@ -79,6 +64,7 @@ h2 {
 	font-family: 'Rokkitt', serif;
 	margin: 0;
 	font-weight: normal;
+	color: #444444;
 }
 
 .subDetails {
@@ -128,6 +114,7 @@ a {
 }
 
 h1 {
+	font: #444444;
 	font-size: 1.5em;
 	font-weight: normal;
 }
@@ -145,6 +132,7 @@ h1 {
 }
 
 .nameh1 {
+	color: #444444;
 	font-family: 'Rokkitt', sans-serif;
 	font-size: 40px;
 	font-weight: bold;
